@@ -1,0 +1,49 @@
+:root {
+  /* colors */
+
+  --primary-color: #003459;
+  --secondary-color: #f7dba7;
+  --state-color-red: #ff564f;
+  --state-color-green: #34c759;
+  --state-color-orange: #ff912c;
+  --state-color-blue: #00a7e7;
+  --neutral-color-1: #00171f;
+  --neutral-color-2: #242b33;
+  --neutral-color-3: #667479;
+  --neutral-color-4: #99a2a5;
+  --neutral-color-5: #ccd1d2;
+  --neutral-color-6: #ebeeef;
+  --neutral-color-7: #fdfdfd;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+h1.large {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+strong {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
