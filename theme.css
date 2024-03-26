@@ -2,6 +2,7 @@
   /* colors */
 
   --primary-color: #003459;
+  --primary-color-darkblue: #002a48;
   --secondary-color: #f7dba7;
   --state-color-red: #ff564f;
   --state-color-green: #34c759;
@@ -15,7 +16,16 @@
   --neutral-color-6: #ebeeef;
   --neutral-color-7: #fdfdfd;
 }
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Gilroy";
+  font-style: normal;
+  margin: 0;
+  color: var(--primary-color-darkblue);
+}
 h1 {
   font-size: 46px;
   font-weight: bold;
@@ -46,4 +56,17 @@ strong {
 .container {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+a {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
